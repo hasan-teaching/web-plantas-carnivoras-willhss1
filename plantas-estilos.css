@@ -1,10 +1,8 @@
 body {
     background-image:url("imagens/fundo.png");
+    text-align: justify;
     margin-left: 20%;
     margin-right: 20%;
-    border: 2px dotted black;
-    padding: 10px 10px 10px 10px;
-    font-family: sans-serif;
 
 }
 blockquote, q {
@@ -12,4 +10,22 @@ blockquote, q {
 }
 h1 {
     margin-bottom: 30px;
+    font-family: 'Times New Roman';
+    color:limegreen;
+    font-size: 28px;
+}
+h2 {
+    margin-bottom: 30px;
+    font-family: 'Times New Roman';
+    color:limegreen;
+    font-size: 24px;
+}
+p{
+    font-family: "Arial";
+}
+img{
+    border: solid;
+    border-color: limegreen;
+    border-width: 4px;
+
 }
