@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 body {
     background-image:url("imagens/fundo.png");
     text-align: justify;
@@ -27,12 +30,20 @@ img{
     border: solid;
     border-color: limegreen;
     border-width: 4px;
+    width: 405px;
+    height: 270px;
 
 }
-table,th,td{
+table{
     border-collapse: collapse;
     border: 2px solid silver;
     margin: 0 auto;
     text-align: center;
     width: 600px;
+    height: 350px;
+}
+th,td{
+    border-collapse: collapse;
+    border: 2px solid silver;
+    margin: 0 auto;
 }
